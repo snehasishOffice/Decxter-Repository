@@ -3528,6 +3528,329 @@
           "row" : 0,
           "col" : 0,
           "id" : "ba6f1fb3-fde4-be9e-b208-44234184ab8f"
+        },
+        "e1e00cbb-481e-9bb4-0e85-33242eed6b59" : {
+          "typeFullFqn" : "system.range_chart",
+          "type" : "timeseries",
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "77cd57e0-6752-11ef-ad34-09a4a01156a8",
+              "dataKeys" : [ {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "Temperature",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.5024917049967268
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "hideInterval" : false,
+              "hideLastInterval" : false,
+              "hideQuickInterval" : false,
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 0,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "interval" : 1000
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              },
+              "timezone" : null
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgba(0, 0, 0, 0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "dataZoom" : true,
+              "rangeColors" : [ {
+                "to" : -20,
+                "color" : "#234CC7"
+              }, {
+                "from" : -20,
+                "to" : 0,
+                "color" : "#305AD7"
+              }, {
+                "from" : 0,
+                "to" : 10,
+                "color" : "#7191EF"
+              }, {
+                "from" : 10,
+                "to" : 20,
+                "color" : "#FFA600"
+              }, {
+                "from" : 20,
+                "to" : 30,
+                "color" : "#F36900"
+              }, {
+                "from" : 30,
+                "to" : 40,
+                "color" : "#F04022"
+              }, {
+                "from" : 40,
+                "color" : "#D81838"
+              } ],
+              "outOfRangeColor" : "#ccc",
+              "fillArea" : true,
+              "showLegend" : true,
+              "legendPosition" : "top",
+              "legendLabelFont" : {
+                "family" : "Roboto",
+                "size" : 12,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "400",
+                "lineHeight" : "16px"
+              },
+              "legendLabelColor" : "rgba(0, 0, 0, 0.76)",
+              "showTooltip" : true,
+              "tooltipValueFont" : {
+                "family" : "Roboto",
+                "size" : 12,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "500",
+                "lineHeight" : "16px"
+              },
+              "tooltipValueColor" : "rgba(0, 0, 0, 0.76)",
+              "tooltipShowDate" : true,
+              "tooltipDateFormat" : {
+                "format" : null,
+                "lastUpdateAgo" : false,
+                "custom" : false,
+                "auto" : true,
+                "autoDateFormatSettings" : { }
+              },
+              "tooltipDateFont" : {
+                "family" : "Roboto",
+                "size" : 11,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "400",
+                "lineHeight" : "16px"
+              },
+              "tooltipDateColor" : "rgba(0, 0, 0, 0.76)",
+              "tooltipBackgroundColor" : "rgba(255, 255, 255, 0.76)",
+              "tooltipBackgroundBlur" : 4,
+              "background" : {
+                "type" : "color",
+                "color" : "#fff",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "tooltipDateInterval" : true,
+              "showRangeThresholds" : true,
+              "rangeThreshold" : {
+                "type" : "constant",
+                "yAxisId" : "default",
+                "units" : null,
+                "decimals" : 0,
+                "lineColor" : "#37383b",
+                "lineType" : "dashed",
+                "lineWidth" : 1,
+                "startSymbol" : "circle",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 7,
+                "showLabel" : true,
+                "labelPosition" : "insideEndTop",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "#37383b",
+                "enableLabelBackground" : true,
+                "labelBackground" : "rgba(255,255,255,0.56)"
+              },
+              "fillAreaOpacity" : 0.7,
+              "showLine" : true,
+              "step" : false,
+              "stepType" : "start",
+              "smooth" : false,
+              "lineType" : "solid",
+              "lineWidth" : 2,
+              "showPoints" : false,
+              "showPointLabel" : false,
+              "pointLabelPosition" : "top",
+              "pointLabelFont" : {
+                "family" : "Roboto",
+                "size" : 11,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "400",
+                "lineHeight" : "1"
+              },
+              "pointLabelColor" : "rgba(0, 0, 0, 0.76)",
+              "enablePointLabelBackground" : false,
+              "pointLabelBackground" : "rgba(255,255,255,0.56)",
+              "pointShape" : "emptyCircle",
+              "pointSize" : 4,
+              "grid" : {
+                "show" : false,
+                "backgroundColor" : null,
+                "borderWidth" : 1,
+                "borderColor" : "#ccc"
+              },
+              "yAxis" : {
+                "units" : null,
+                "decimals" : 0,
+                "show" : true,
+                "label" : "",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "600",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.54)",
+                "position" : "left",
+                "showTickLabels" : true,
+                "tickLabelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "tickLabelColor" : "rgba(0, 0, 0, 0.54)",
+                "ticksFormatter" : null,
+                "showTicks" : false,
+                "ticksColor" : "rgba(0, 0, 0, 0.54)",
+                "showLine" : false,
+                "lineColor" : "rgba(0, 0, 0, 0.54)",
+                "showSplitLines" : true,
+                "splitLinesColor" : "rgba(0, 0, 0, 0.12)",
+                "id" : "default",
+                "order" : 0
+              },
+              "xAxis" : {
+                "show" : true,
+                "label" : "",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "600",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.54)",
+                "position" : "bottom",
+                "showTickLabels" : true,
+                "tickLabelFont" : {
+                  "family" : "Roboto",
+                  "size" : 10,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "tickLabelColor" : "rgba(0, 0, 0, 0.54)",
+                "ticksFormat" : { },
+                "showTicks" : true,
+                "ticksColor" : "rgba(0, 0, 0, 0.54)",
+                "showLine" : true,
+                "lineColor" : "rgba(0, 0, 0, 0.54)",
+                "showSplitLines" : false,
+                "splitLinesColor" : "rgba(0, 0, 0, 0.12)"
+              },
+              "thresholds" : [ ],
+              "animation" : {
+                "animation" : true,
+                "animationThreshold" : 2000,
+                "animationDuration" : 500,
+                "animationEasing" : "cubicOut",
+                "animationDelay" : 0,
+                "animationDurationUpdate" : 300,
+                "animationEasingUpdate" : "cubicOut",
+                "animationDelayUpdate" : 0
+              },
+              "tooltipLabelFont" : {
+                "family" : "Roboto",
+                "size" : 12,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "400",
+                "lineHeight" : "16px"
+              },
+              "tooltipLabelColor" : "rgba(0, 0, 0, 0.76)",
+              "padding" : "12px"
+            },
+            "title" : "Range chart",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : null,
+            "configMode" : "basic",
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleIcon" : "thermostat",
+            "iconColor" : "#1F6BDD",
+            "useDashboardTimewindow" : false,
+            "displayTimewindow" : true,
+            "titleFont" : {
+              "size" : 16,
+              "sizeUnit" : "px",
+              "family" : "Roboto",
+              "weight" : "500",
+              "style" : "normal",
+              "lineHeight" : "24px"
+            },
+            "titleColor" : "rgba(0, 0, 0, 0.87)",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "units" : "°C",
+            "decimals" : 0,
+            "noDataDisplayMessage" : "",
+            "timewindowStyle" : {
+              "showIcon" : false,
+              "iconSize" : "24px",
+              "icon" : null,
+              "iconPosition" : "left",
+              "font" : {
+                "size" : 12,
+                "sizeUnit" : "px",
+                "family" : "Roboto",
+                "weight" : "400",
+                "style" : "normal",
+                "lineHeight" : "16px"
+              },
+              "color" : "rgba(0, 0, 0, 0.38)",
+              "displayTypePrefix" : true
+            },
+            "margin" : "0px",
+            "borderRadius" : "0px",
+            "iconSize" : "0px",
+            "enableDataExport" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e1e00cbb-481e-9bb4-0e85-33242eed6b59"
         }
       },
       "states" : {
@@ -3693,6 +4016,12 @@
                   "sizeX" : 26,
                   "sizeY" : 5,
                   "row" : 29,
+                  "col" : 0
+                },
+                "e1e00cbb-481e-9bb4-0e85-33242eed6b59" : {
+                  "sizeX" : 8,
+                  "sizeY" : 5,
+                  "row" : 34,
                   "col" : 0
                 }
               },
