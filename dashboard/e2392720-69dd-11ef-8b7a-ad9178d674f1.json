@@ -117,12 +117,12 @@
               "deviceId" : "6715ab91-69e7-11ef-8345-c396246a79d7",
               "entityAliasId" : null,
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "lat",
                 "type" : "timeseries",
-                "label" : "temperature",
+                "label" : "lat",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.44468976478631106
+                "_hash" : 0.27222634000562573
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
